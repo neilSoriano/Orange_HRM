@@ -1,0 +1,149 @@
+2023-07-06 17:30:39,313 :INFO : test_add_employee : Test for adding a new employee to the HR system
+2023-07-06 17:30:39,314 :INFO : test_add_employee : Starting log in
+2023-07-06 17:30:40,741 :INFO : test_add_employee : Logged in
+2023-07-06 17:30:42,496 :INFO : test_add_employee : On PIM page now
+2023-07-06 17:30:43,794 :INFO : test_add_employee : Reached to add employee page
+2023-07-06 17:30:44,867 :INFO : test_add_employee : New employee added
+2023-07-06 17:30:48,659 :INFO : test_add_employee : Assertion passes
+2023-07-06 17:30:48,665 :INFO : test_add_details : Adding new employee details
+2023-07-06 17:30:50,269 :INFO : test_add_details : Saving new personal details
+2023-07-06 17:30:50,646 :INFO : test_add_details : Successfully saved personal details
+2023-07-06 17:30:50,646 :INFO : test_add_details : Adding blood type
+2023-07-06 17:30:50,764 :INFO : test_add_details : Saving blood type
+2023-07-06 17:30:51,134 :INFO : test_add_details : Successfully saved blood type
+2023-07-07 14:49:37,744 :INFO : test_add_employee : Test for adding a new employee to the HR system
+2023-07-07 14:49:37,745 :INFO : test_add_employee : Starting log in
+2023-07-07 14:49:39,670 :INFO : test_add_employee : Logged in
+2023-07-07 14:49:41,885 :INFO : test_add_employee : On PIM page now
+2023-07-07 14:49:43,335 :INFO : test_add_employee : Reached to add employee page
+2023-07-07 14:49:44,560 :INFO : test_add_employee : New employee added
+2023-07-07 14:49:49,121 :INFO : test_add_employee : Assertion passes
+2023-07-07 14:49:49,126 :INFO : test_add_details : Adding new employee details
+2023-07-07 14:49:50,643 :INFO : test_add_details : Saving new personal details
+2023-07-07 14:49:57,149 :INFO : test_edit_employee : Admin test for editing an employee's details
+2023-07-07 14:49:57,150 :INFO : test_edit_employee : Starting log in
+2023-07-07 14:49:59,589 :INFO : test_edit_employee : Logged in
+2023-07-07 14:50:07,012 :INFO : test_page_title : Page Title Test
+2023-07-07 14:50:07,049 :INFO : test_page_title : Page Title Test PASS
+2023-07-07 14:50:07,053 :INFO : test_login : Entering username...
+2023-07-07 14:50:07,236 :INFO : test_login : Entering password...
+2023-07-07 15:05:12,798 :INFO : test_add_employee : Test for adding a new employee to the HR system
+2023-07-07 15:05:12,812 :INFO : test_add_employee : Starting log in
+2023-07-07 15:05:14,609 :INFO : test_add_employee : Logged in
+2023-07-07 15:05:17,264 :INFO : test_add_employee : On PIM page now
+2023-07-07 15:05:19,441 :INFO : test_add_employee : Reached to add employee page
+2023-07-07 15:05:21,267 :INFO : test_add_details : Adding new employee details
+2023-07-07 15:05:40,759 :INFO : test_edit_employee : Admin test for editing an employee's details
+2023-07-07 15:05:40,759 :INFO : test_edit_employee : Starting log in
+2023-07-07 15:05:43,315 :INFO : test_edit_employee : Logged in
+2023-07-07 15:05:48,312 :INFO : test_page_title : Page Title Test
+2023-07-07 15:05:48,317 :INFO : test_page_title : Page Title Test PASS
+2023-07-07 15:05:48,322 :INFO : test_login : Entering username...
+2023-07-07 15:05:49,083 :INFO : test_login : Entering password...
+2023-07-07 15:11:51,812 :INFO : test_add_employee : Test for adding a new employee to the HR system
+2023-07-07 15:11:51,812 :INFO : test_add_employee : Starting log in
+2023-07-07 15:11:53,598 :INFO : test_add_employee : Logged in
+2023-07-07 15:11:55,647 :INFO : test_add_employee : On PIM page now
+2023-07-07 15:11:57,118 :INFO : test_add_employee : Reached to add employee page
+2023-07-07 15:11:58,383 :INFO : test_add_employee : New employee added
+2023-07-07 15:12:02,939 :INFO : test_add_employee : Assertion passes
+2023-07-07 15:12:02,944 :INFO : test_add_details : Adding new employee details
+2023-07-07 15:12:04,446 :INFO : test_add_details : Saving new personal details
+2023-07-07 15:12:04,945 :INFO : test_add_details : Successfully saved personal details
+2023-07-07 15:12:04,945 :INFO : test_add_details : Adding blood type
+2023-07-07 15:12:05,075 :INFO : test_add_details : Saving blood type
+2023-07-07 15:12:11,209 :INFO : test_page_title : Page Title Test
+2023-07-07 15:12:11,214 :INFO : test_page_title : Page Title Test PASS
+2023-07-07 15:12:11,218 :INFO : test_login : Entering username...
+2023-07-07 15:12:11,374 :INFO : test_login : Entering password...
+2023-07-08 15:14:50,285 :INFO : test_add_employee : Test for adding a new employee to the HR system
+2023-07-08 15:14:50,286 :INFO : test_add_employee : Starting log in
+2023-07-08 15:14:52,606 :INFO : test_add_employee : Logged in
+2023-07-08 15:14:54,155 :INFO : test_add_employee : On PIM page now
+2023-07-08 15:14:55,317 :INFO : test_add_employee : Reached to add employee page
+2023-07-08 15:14:56,475 :INFO : test_add_employee : New employee added
+2023-07-08 15:15:00,336 :INFO : test_add_employee : Assertion passes
+2023-07-08 15:15:00,342 :INFO : test_add_details : Adding new employee details
+2023-07-08 15:15:01,807 :INFO : test_add_details : Saving new personal details
+2023-07-08 15:15:08,735 :INFO : test_page_title : Page Title Test
+2023-07-08 15:15:08,740 :INFO : test_page_title : Page Title Test PASS
+2023-07-08 15:15:08,744 :INFO : test_login : Entering username...
+2023-07-08 15:15:08,924 :INFO : test_login : Entering password...
+2023-07-08 15:22:13,144 :INFO : test_add_employee : Test for adding a new employee to the HR system
+2023-07-08 15:22:13,145 :INFO : test_add_employee : Starting log in
+2023-07-08 15:22:14,757 :INFO : test_add_employee : Logged in
+2023-07-08 15:22:16,709 :INFO : test_add_employee : On PIM page now
+2023-07-08 15:22:18,216 :INFO : test_add_employee : Reached to add employee page
+2023-07-08 15:22:19,405 :INFO : test_add_employee : New employee added
+2023-07-08 15:22:23,234 :INFO : test_add_employee : Assertion passes
+2023-07-08 15:22:23,239 :INFO : test_add_details : Adding new employee details
+2023-07-08 15:22:24,703 :INFO : test_add_details : Updating new personal details
+2023-07-08 15:22:31,961 :INFO : test_page_title : Page Title Test
+2023-07-08 15:22:31,970 :INFO : test_page_title : Page Title Test PASS
+2023-07-08 15:22:31,976 :INFO : test_login : Entering username...
+2023-07-08 15:22:32,197 :INFO : test_login : Entering password...
+2023-07-08 15:24:54,190 :INFO : test_add_employee : Test for adding a new employee to the HR system
+2023-07-08 15:24:54,191 :INFO : test_add_employee : Starting log in
+2023-07-08 15:24:55,698 :INFO : test_add_employee : Logged in
+2023-07-08 15:24:57,323 :INFO : test_add_employee : On PIM page now
+2023-07-08 15:24:58,465 :INFO : test_add_employee : Reached to add employee page
+2023-07-08 15:24:59,611 :INFO : test_add_employee : New employee added
+2023-07-08 15:25:03,459 :INFO : test_add_employee : Assertion passes
+2023-07-08 15:25:03,464 :INFO : test_add_details : Adding new employee details
+2023-07-08 15:25:05,050 :INFO : test_add_details : Updating new personal details
+2023-07-08 15:25:05,981 :INFO : test_add_details : Successfully updated personal details
+2023-07-08 15:25:05,981 :INFO : test_add_details : Adding blood type
+2023-07-08 15:25:06,121 :INFO : test_add_details : Saving blood type
+2023-07-08 15:25:07,047 :INFO : test_add_details : Successfully saved blood type
+2023-07-08 15:28:29,406 :INFO : test_add_employee : Test for adding a new employee to the HR system
+2023-07-08 15:28:29,406 :INFO : test_add_employee : Starting log in
+2023-07-08 15:28:30,952 :INFO : test_add_employee : Logged in
+2023-07-08 15:28:32,701 :INFO : test_add_employee : On PIM page now
+2023-07-08 15:28:33,920 :INFO : test_add_employee : Reached to add employee page
+2023-07-08 15:28:34,999 :INFO : test_add_employee : New employee added
+2023-07-08 15:28:38,796 :INFO : test_add_employee : Assertion passes
+2023-07-08 15:28:38,801 :INFO : test_add_details : Adding new employee details
+2023-07-08 15:28:40,254 :INFO : test_add_details : Updating new personal details
+2023-07-08 15:28:40,642 :INFO : test_add_details : Successfully updated personal details
+2023-07-08 15:28:40,643 :INFO : test_add_details : Adding blood type
+2023-07-08 15:28:40,762 :INFO : test_add_details : Saving blood type
+2023-07-08 15:28:41,163 :INFO : test_add_details : Successfully saved blood type
+2023-07-08 15:44:48,140 :INFO : test_add_employee : Test for adding a new employee to the HR system
+2023-07-08 15:44:48,141 :INFO : test_add_employee : Starting log in
+2023-07-08 15:44:49,565 :INFO : test_add_employee : Logged in
+2023-07-08 15:44:51,182 :INFO : test_add_employee : On PIM page now
+2023-07-08 15:44:52,504 :INFO : test_add_employee : Reached to add employee page
+2023-07-08 15:44:53,667 :INFO : test_add_employee : New employee added
+2023-07-08 15:44:57,617 :INFO : test_add_details : Adding new employee details
+2023-07-08 15:44:58,889 :INFO : test_add_details : Updating new personal details
+2023-07-08 15:44:59,323 :ERROR : test_add_details : Successfully Updated message did not match or appear
+2023-07-08 15:47:12,608 :INFO : test_add_employee : Test for adding a new employee to the HR system
+2023-07-08 15:47:12,608 :INFO : test_add_employee : Starting log in
+2023-07-08 15:47:14,084 :INFO : test_add_employee : Logged in
+2023-07-08 15:47:15,785 :INFO : test_add_employee : On PIM page now
+2023-07-08 15:47:16,908 :INFO : test_add_employee : Reached to add employee page
+2023-07-08 15:47:18,062 :INFO : test_add_employee : New employee added
+2023-07-08 15:47:21,998 :INFO : test_add_employee : Assertion passes
+2023-07-08 15:47:22,002 :INFO : test_add_details : Adding new employee details
+2023-07-08 15:47:23,407 :INFO : test_add_details : Updating new personal details
+2023-07-08 15:47:24,303 :INFO : test_add_details : Successfully updated personal details
+2023-07-08 15:47:24,313 :INFO : test_add_details : Adding blood type
+2023-07-08 15:47:24,436 :INFO : test_add_details : Saving blood type
+2023-07-08 15:47:24,816 :INFO : test_add_details : Successfully Saved blood type
+2023-07-08 15:57:02,328 :INFO : test_add_employee : Test for adding a new employee to the HR system
+2023-07-08 15:57:02,329 :INFO : test_add_employee : Starting log in
+2023-07-08 15:57:03,723 :INFO : test_add_employee : Logged in
+2023-07-08 15:57:05,401 :INFO : test_add_employee : On PIM page now
+2023-07-08 15:57:06,885 :INFO : test_add_employee : Reached to add employee page
+2023-07-08 15:57:08,157 :INFO : test_add_employee : New employee added
+2023-07-08 15:57:11,929 :INFO : test_add_employee : Assertion passes
+2023-07-08 15:57:11,934 :INFO : test_add_details : Adding new employee details
+2023-07-08 15:57:13,317 :INFO : test_add_details : Updating new personal details
+2023-07-08 15:57:13,695 :INFO : test_add_details : Successfully updated personal details
+2023-07-08 15:57:13,706 :INFO : test_add_details : Adding blood type
+2023-07-08 15:57:13,831 :INFO : test_add_details : Saving blood type
+2023-07-08 15:57:14,211 :INFO : test_add_details : Successfully Saved blood type
+2023-07-08 15:57:19,975 :INFO : test_page_title : Page Title Test
+2023-07-08 15:57:19,978 :INFO : test_page_title : Page Title Test PASS
+2023-07-08 15:57:19,982 :INFO : test_login : Entering username...
+2023-07-08 15:57:20,094 :INFO : test_login : Entering password...
