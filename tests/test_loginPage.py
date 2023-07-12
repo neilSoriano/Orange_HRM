@@ -1,10 +1,12 @@
-from selenium import webdriver
+import pytest
+
 from pageObjects.LoginPage import LoginPage
 from utilities.BaseClass import BaseClass
 
 
 class TestLogin(BaseClass):
 
+    @pytest.mark.regression
     def test_page_title(self):
         log = self.get_logger()
         log.info("Page Title Test")
@@ -22,6 +24,7 @@ class TestLogin(BaseClass):
             self.driver.close()
             assert False
 
+    @pytest.mark.regression
     def test_login(self):
         log = self.get_logger()
         login = LoginPage(self.driver)

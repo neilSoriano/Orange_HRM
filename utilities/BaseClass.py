@@ -4,7 +4,6 @@ import logging
 import pytest
 
 # use useFixtures("setup") to use fixture method from conftest
-from TestData.LoginPageData import LoginPageData
 from utilities.readProperties import ReadConfig
 
 
@@ -17,13 +16,14 @@ class BaseClass:
     username = ReadConfig.get_username()
     password = ReadConfig.get_password()
 
-    def get_logger(self):
+    @staticmethod
+    def get_logger():
         # inspect.stack() returns the nested list with frame records for the given function(s) and
         # we are specifically getting first list from the nest and fetching the third element from the list
         loggerName = inspect.stack()[1][3]
         logger = logging.getLogger(loggerName)
 
-        fileHandler = logging.FileHandler('logfile.log')
+        fileHandler = logging.FileHandler('logfile.log', mode='w')
         formatter = logging.Formatter("%(asctime)s :%(levelname)s : %(name)s : %(message)s")
         fileHandler.setFormatter(formatter)
         logger.addHandler(fileHandler)

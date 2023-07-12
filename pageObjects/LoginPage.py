@@ -1,4 +1,3 @@
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EXC
@@ -11,6 +10,12 @@ class LoginPage:
     password = "//input[@name='password']"
     loginButton = (By.TAG_NAME, "button")
     header = "h6"
+    arrow = ".oxd-icon.bi-caret-down-fill.oxd-userdropdown-icon"
+    logout_button = "(//a[contains(@class,'oxd-userdropdown-link')])[4]"
+    invalid_login = ".oxd-text.oxd-text--p.oxd-alert-content-text"
+
+    book_path = "/Users/neilsoriano/PycharmProjects1/pythonTesting/OrangeHRM_Demo/TestData/LoginPageData.xlsx"
+    expected_url = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
 
     def __init__(self, driver):
         self.driver = driver
@@ -35,3 +40,13 @@ class LoginPage:
     def get_dashboard_title(self):
         self.WebDriverWait.until(EXC.text_to_be_present_in_element((By.TAG_NAME, self.header), "Dashboard"))
         return self.driver.find_element(By.TAG_NAME, self.header).text
+
+    def log_out(self):
+        self.WebDriverWait.until((EXC.presence_of_element_located((By.CSS_SELECTOR, self.arrow))))
+        self.driver.find_element(By.CSS_SELECTOR, self.arrow).click()
+        self.WebDriverWait.until(EXC.presence_of_element_located((By.XPATH, self.logout_button)))
+        return self.driver.find_element(By.XPATH, self.logout_button).click()
+
+    def get_invalid_text(self):
+        self.WebDriverWait.until((EXC.presence_of_element_located((By.CSS_SELECTOR, self.invalid_login))))
+        return self.driver.find_element(By.CSS_SELECTOR, self.invalid_login).text

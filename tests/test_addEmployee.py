@@ -1,10 +1,13 @@
+import pytest
+
 from pageObjects.LoginPage import LoginPage
 from pageObjects.PersonalDetails import PersonalDetails
 from utilities.BaseClass import BaseClass
 
 
 class TestAddEmployee(BaseClass):
-    
+
+    @pytest.mark.sanity
     def test_add_employee(self):
         log = self.get_logger()
 
@@ -34,6 +37,7 @@ class TestAddEmployee(BaseClass):
         assert "Personal Details" in pageTitle
         log.info("Assertion passes")
 
+    @pytest.mark.sanity
     def test_add_details(self):
         log = self.get_logger()
 
