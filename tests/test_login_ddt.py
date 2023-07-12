@@ -39,7 +39,8 @@ class TestLoginDDT(BaseClass):
                 self.valid_logins[sheet.cell(row=1, column=2).value].append(sheet.cell(row=i, column=2).value)
                 self.valid_logins[sheet.cell(row=1, column=3).value].append(sheet.cell(row=i, column=3).value)
 
-        print(self.failed_logins + "\n")
+        print(self.failed_logins)
+        print("\n")
         print(self.valid_logins)
 
         book.save(login.book_path)
